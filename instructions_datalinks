@@ -1,0 +1,14 @@
+Step 1: Download the raw forecasting data from the HFC forecasting tournament from:
+https://dataverse.harvard.edu/dataverse/hfc. Focusing on RCTA, the first year of competition,
+write a paragraph describing the structure of the three main raw data files.
+Step 2: Take all individual forecasts, and aggregate the individual-level forecasts in the following
+five ways. The result should be five data points for each question-day pair, using the most
+recent forecast from each forecaster on that day (i.e. for each day that the question had any
+forecasts, each of the following aggregates):
+● Method 1: Raw Mean
+● Method 2: Median
+● Method 3: Geometric Mean
+● Method 4: Trimmed Mean (trimming top and bottom 10% of forecasts)
+● Method 5: Geometric Mean of odds, as described here:
+https://forum.effectivealtruism.org/posts/sMjcjnnpoAQCcedL2/when-pooling-forecasts-us
+e-the-geometric-mean-of-odds
